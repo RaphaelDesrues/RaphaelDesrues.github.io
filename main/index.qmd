@@ -1,0 +1,12 @@
+---
+title: "Accueil"
+format: html
+---
+
+# Bienvenue sur mon site
+
+Voici quelques projets :
+
+- [Projet 1](projet1.qmd)
+- [Projet 2](projet2.qmd)
+- [Projet 3](projet3.qmd)

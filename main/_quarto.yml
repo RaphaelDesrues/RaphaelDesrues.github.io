@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: _site
+website:
+  title: "WebSite_RD"
+  navbar:
+    left:
+      - text: Accueil
+        href: index.qmd
+      - text: Projet 1
+        href: projet1.qmd
+      - text: Projet 2
+        href: projet2.qmd
+      - text: Projet 3
+        href: projet3.qmd
+format:
+  html:
+    theme: cosmo
