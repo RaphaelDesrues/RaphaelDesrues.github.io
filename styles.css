@@ -1,4 +1,4 @@
-/* General reset and typography */
+/* Generality */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   color: #333;
 }
 
-/* Header with a background image and overlay text */
+/* Header */
 .header {
   position: relative;
   height: 400px;
@@ -66,7 +66,7 @@ nav ul li a.active {
   padding: 20px;
 }
 
-/* Section titles */
+/* Titles */
 .section-title {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -74,7 +74,7 @@ nav ul li a.active {
   color: #222;
 }
 
-/* CV page styling */
+/* CV oage */
 .cv-links {
   display: flex;
   flex-direction: column;
@@ -96,7 +96,7 @@ nav ul li a.active {
   opacity: 0.8;
 }
 
-/* Research page styling */
+/* Research page */
 .research-section {
   margin-bottom: 2rem;
   background-color: #fff;
@@ -116,7 +116,7 @@ nav ul li a.active {
   text-align: justify;
 }
 
-/* Projects page styling */
+/* Projects page */
 .project-list {
   display: flex;
   flex-direction: column;
@@ -140,7 +140,7 @@ nav ul li a.active {
   margin-bottom: 0.5rem;
 }
 
-/* Skills page styling */
+/* Skills page */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -160,11 +160,15 @@ nav ul li a.active {
   margin-bottom: 0.5rem;
 }
 
-/* Tutorials page styling */
+/* Tutorials page */
 .tutorial-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
+}
+
+.tutorial-grid h3 {
+  text-align: center;
 }
 
 .tutorial-section {

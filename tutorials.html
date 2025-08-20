@@ -7,55 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
     <header class="header">
-        <h1>Tutoriels &amp; Notes</h1>
+        <h1>Tutorials &amp; Notes</h1>
     </header>
-    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="cv.html">CV</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="skills.html">Skills</a></li>
             <li><a href="tutorials.html" class="active">Tutorials</a></li>
         </ul>
     </nav>
-    <!-- Tutorials content -->
     <div class="container">
-        <h2 class="section-title">Tutoriels et notes</h2>
-        <p class="tutorial-intro">Cette section contient des ressources pour apprendre et approfondir l’analyse de dynamique moléculaire, la visualisation, Gromacs et l’apprentissage automatique. Une version plus détaillée sera bientôt disponible sous la forme d’un site Quarto.</p>
+        <h2 class="section-title">Tutorials and Notes</h2>
+        <p class="tutorial-intro">
+            This sections contains resources (quick tutorials and notes) about molecular dynamics analysis, visualization and file manipulations.
+            A more detailed version is available on 
+            <a href="https://raphaeldesrues.github.io/bioinfo_tutorials/" target="_blank">this website</a>
+        </p>
         <div class="tutorial-grid">
             <div class="tutorial-section">
-                <h3>Analyse en dynamique moléculaire</h3>
+                <h3>Molecular Dynamics Analysis</h3>
                 <ul>
-                    <li><a href="pages/tutorials/topology.qmd">Topologie de trajectoires</a></li>
-                    <li><a href="pages/tutorials/manipulate_trajectory.qmd">Manipulation des fichiers de trajectoires</a></li>
-                    <li><a href="pages/tutorials/basic_analysis.qmd">Analyse de base (RMSD, RMSF)</a></li>
-                    <li><a href="pages/tutorials/hydrogen_bonds.qmd">Liaisons hydrogène</a></li>
+                    <li><a href="https://raphaeldesrues.github.io/bioinfo_tutorials/pages/tutorials/Trajectory_analysis/core_analysis.html">RMSD, RMSF, Distances, ...</a></li>
+                    <li><a href="https://raphaeldesrues.github.io/bioinfo_tutorials/pages/tutorials/Trajectory_analysis/hbonds_analysis.html">Hydrogen Bonds</a></li>
                 </ul>
             </div>
             <div class="tutorial-section">
-                <h3>Visualisation</h3>
+                <h3>Visualization</h3>
                 <ul>
-                    <li><a href="documents/CV_analytique_Raphael_DESRUES.pdf">Utilisation de VMD</a></li>
+                    <!-- <li><a href="">Using VMD</a></li> -->
                 </ul>
             </div>
             <div class="tutorial-section">
                 <h3>Gromacs</h3>
                 <ul>
-                    <li><a href="documents/CV_analytique_Raphael_DESRUES.pdf">Commandes de base</a></li>
+                    <li><a href="https://raphaeldesrues.github.io/bioinfo_tutorials/pages/tutorials/Gromacs_Files_Manipulation/handle_top.html">Trajectory's Topology</a></li>
+                    <li><a href="https://raphaeldesrues.github.io/bioinfo_tutorials/pages/tutorials/Gromacs_Files_Manipulation/handle_traj.html">Trajectory</a></li>
                 </ul>
             </div>
             <div class="tutorial-section">
-                <h3>Machine Learning</h3>
+                <h3>Machine Learning</h3>
                 <ul>
-                    <li><a href="documents/CV_analytique_Raphael_DESRUES.pdf">Analyse non supervisée</a></li>
+                    <!-- <li><a href="">Unsupervised Analysis</a></li> -->
                 </ul>
             </div>
         </div>
-        <p class="tutorial-intro"><strong>Site Quarto :</strong> <a href="pages/tutorials/">Accéder au site complet (bientôt disponible)</a></p>
     </div>
 </body>
 </html>
